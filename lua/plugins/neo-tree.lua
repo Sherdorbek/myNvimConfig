@@ -9,5 +9,6 @@ return {
 	config = function()
 		local neotree = require("neo-tree")
     vim.keymap.set('n','<C-n>', ":Neotree filesystem reveal left<CR>",{})
+    vim.keymap.set('n','<C-h>', ":Neotree filesystem close left<CR>",{})
 	end,
 }
